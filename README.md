@@ -80,6 +80,20 @@ Type: `String`
 
 Define the remote path where the project will be deployed. A directory `releases` is automatically created. A symlink `current` is linked to the current release.
 
+### currentPath
+
+Type: `String`
+Default: `current`
+
+Define the remote symlink which is linked to the current release.
+
+### releasesPath
+
+Type: `String`
+Default: `releases`
+
+Define the remote directory where releases are deployed.
+
 ### repositoryUrl
 
 Type: `String`
